@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.decrement{
+    padding: 0px 15px;
+    /* border:1px solid red;  */
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    background-color: rgb(25, 185, 25);
+    color: #fff;
+}
+
+.increment{
+    padding: 0px 15px;
+    /* border:1px solid red;  */
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgb(25, 185, 25);
+    color: #fff;
+}
+
+.count {
+    padding: 0px 15px;
+
+}

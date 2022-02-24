@@ -1,12 +1,16 @@
-import './App.css';
-import Fruits from './Fruits'
+import React  from "react";
+import './App.css'
+import Dars from './onState'
 
-function App() {
-  return (
-    <div>
-     <Fruits/>
-    </div>
-  );
+
+class App extends React.Component{
+    render(){
+        return(
+            <div>
+                <Dars/>
+            </div>
+        )
+    }
 }
 
-export default App;
+export default App

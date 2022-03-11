@@ -78,7 +78,6 @@ box-sizing: border-box;
 border-radius: 5px;
 margin-top: 14px;
 padding-left: 14px;
-/* color: #EAEAEA; */
 :active{
     border: 1px solid #46A358;
     box-sizing: border-box;

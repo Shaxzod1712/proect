@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Login from './Login/Login'
-import Register from './Register/Register'
+import App from './App'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
-    <Register />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,3 +1,46 @@
+import React, {useState} from "react";
+import Login from './Login/Login'
+import Register from './Register/Register'
+
+const App = () =>{
+    const [state, setState] = useState(false)
+
+    if(state){
+        return <Login />
+    } else return <Register />
+        
+        
+    
+}
+
+export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import React, {useState, useEffect}  from "react";
 
 

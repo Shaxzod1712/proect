@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { IconFacebook, IconGoogle } from "../Login/style";
 import { Container, Wrapper, WrapperNavbar, Login, Register, Text, Input1, Input2, Button, WrapperHr, Hr1, Hr2, TextHr, ButtonGoogle, Footer } from "./style";
 
 
@@ -53,8 +54,8 @@ const Regiister = () =>{
                     <pre><TextHr>Or register with</TextHr></pre>
                     <Hr2 />
                 </WrapperHr>
-                <ButtonGoogle>Login with Google</ButtonGoogle>
-                <ButtonGoogle>Login with FaceBook</ButtonGoogle>
+                <ButtonGoogle><IconGoogle /> Login with Google</ButtonGoogle>
+                <ButtonGoogle><IconFacebook /> Login with FaceBook</ButtonGoogle>
             </Wrapper>
             <Footer />
         </Container>

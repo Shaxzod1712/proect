@@ -1,5 +1,24 @@
 import styled from 'styled-components'
 import { ReactComponent as icon } from '../icon/icon1.svg'
+import { ReactComponent as icongoogle } from '../icon/icongoogle.svg'
+import { ReactComponent as iconfacebook } from '../icon/iconfacebook.svg'
+
+export const IconGoogle=styled(icongoogle)`
+display: flex;
+justify-content: center;
+align-items: center;
+width: 24px;
+hieght: 24px;
+margin-right: 9px;
+`
+export const IconFacebook=styled(iconfacebook)`
+display: flex;
+justify-content: center;
+align-items: center;
+width: 24px;
+hieght: 24px;
+margin-right: 9px;
+`
 
 export const Container = styled.div`
 display: flex;
@@ -9,10 +28,6 @@ align-items: center;
 width: 100%;
 height: 100vh;
 background: #E5E5E5;
-`
-export const Icon=styled(icon)`
-width: 20px;
-hieght: 20px;
 `
 export const Wrapper = styled.div`
 display: flex;

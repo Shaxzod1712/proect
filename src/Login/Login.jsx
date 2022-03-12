@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Container,WrapperNavbar,Login,Register, Wrapper, Text, Input1, Input2, Text2, Button, WrapperHr, Hr1, Hr2, TextHr, ButtonGoogle, Footer, Icon } from "./style";
+import { Container,WrapperNavbar,Login,Register, Wrapper, Text, Input1, Input2, Text2, Button, WrapperHr, Hr1, Hr2, TextHr, ButtonGoogle, Footer, IconGoogle, IconFacebook } from "./style";
 
 
 const Logiin = () =>{
@@ -40,8 +40,8 @@ const Logiin = () =>{
                     <pre><TextHr>Or login with</TextHr></pre>
                     <Hr2 />
                 </WrapperHr>
-                <ButtonGoogle><Icon/> Login with Google</ButtonGoogle>
-                <ButtonGoogle>Login with FaceBook</ButtonGoogle>
+                <ButtonGoogle><IconGoogle/> Login with Google</ButtonGoogle>
+                <ButtonGoogle><IconFacebook /> Login with FaceBook</ButtonGoogle>
             </Wrapper>
             <Footer />
         </Container>

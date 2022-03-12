@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { ReactComponent as icon } from '../icon/icon1.svg'
 
 export const Container = styled.div`
 display: flex;
@@ -10,7 +10,10 @@ width: 100%;
 height: 100vh;
 background: #E5E5E5;
 `
-
+export const Icon=styled(icon)`
+width: 20px;
+hieght: 20px;
+`
 export const Wrapper = styled.div`
 display: flex;
 justify-content: center;
@@ -98,13 +101,14 @@ padding-left: 14px;
 `
 export const Text2 =styled.div`
 font-style: normal;
+width: 100%;
 font-weight: 400;
 font-size: 14px;
 line-height: 16px;
 color: #46A358;
-margin-left: auto;
 cursor: pointer;
 margin-top: 14px;
+margin-left: auto;
 `
 
 export const Button =styled.button`

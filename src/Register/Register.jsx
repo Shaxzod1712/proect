@@ -51,7 +51,9 @@ const Regiister = () =>{
                 </form>
                 <WrapperHr>
                     <Hr1 />
-                    <pre><TextHr>Or register with</TextHr></pre>
+                    <pre>
+                        <TextHr>Or register with</TextHr>
+                    </pre>
                     <Hr2 />
                 </WrapperHr>
                 <ButtonGoogle><IconGoogle /> Login with Google</ButtonGoogle>

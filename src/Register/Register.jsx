@@ -48,7 +48,6 @@ const Regiister = () =>{
                 <Input2 placeholder="Password" type='password' onChange={onPassword}/>
                 <Input2 placeholder="Confirm Password" type='password' onChange={onPassword2}/>
                 <Button type="submit">Register</Button>
-                
                 </form>
                 <WrapperHr>
                     <Hr1 />

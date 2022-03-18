@@ -50,7 +50,10 @@ const Regiister = () =>{
                 <Button type="submit">Register</Button>
                 </form>
                 <WrapperHr>
-                    <Hr1 /><pre><TextHr>Or register with</TextHr></pre>
+                    <Hr1 />
+                    <pre>
+                        <TextHr>Or register with</TextHr>
+                    </pre>
                     <Hr2 />
                 </WrapperHr>
                 <ButtonGoogle><IconGoogle /> Login with Google</ButtonGoogle>
